@@ -1,12 +1,12 @@
 <geneiousWorkflows>
-  <XMLSerialisableRootElement name="SARS-CoV-2 Sequence Assembly Midnight 5x" author="Rene Kaden" geneiousVersion="2021.1.1" uniqueId="db184356-90ac-4ed2-b6e9-b8b085fdb474" revisionNumber="150" description="For use with Midnight primer set. Questions: rene.kaden@akademiska.se">
+  <XMLSerialisableRootElement name="SARS-CoV-2_Assembly_Basic" author="Rene Kaden" geneiousVersion="2022.1.1" uniqueId="eff67f0a-895a-4323-8dce-c3cc73295595" revisionNumber="154" description="&lt;html&gt;For use with Midnight primer set. Questions: rene.kaden@akademiska.se&lt;/html&gt;">
     <workflowElement id="BatchExport" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
         <option name="fileFormat">fastqExporterCompressed</option>
         <option name="optionsButton">Options</option>
-        <option name="folder" extra="L:\\UAS\\AL_NGS-Archive\\KMB_Archive\\Midnight fastq,L:\\UAS\\AL_NGS-Archive\\KMB_Archive\\SARS-CoV-2 Sekvenseringsdata\\Sekvenseringsresultat (fastq),">L:\UAS\AL_NGS-Archive\KMB_Archive\SARS-CoV-2 Sekvenseringsdata\Sekvenseringsresultat (fastq)</option>
+        <option name="folder" extra="L:\\UAS\\AL_NGS-Archive\\KMB_Archive\\Midnight fastq,L:\\UAS\\AL_NGS-Archive\\KMB_Archive\\SARS-CoV-2 Sekvenseringsdata\\Sekvenseringsresultat (fastq),/home/ete03/Documents/Geneious_Workflow_SARS-CoV-2/FinalResults,">{DEFAULT_LOCATION}</option>
         <option name="extension">.fastq.gz</option>
-        <option name="exportOptionsXml" />
+        <option name="exportOptionsXml"></option>
         <option name="exportToSingleFile">false</option>
         <option name="singleFileName">results</option>
       </Options>
@@ -33,10 +33,10 @@
         <option name="keepOrder">false</option>
         <option name="memoryToAllocate">20000</option>
         <option name="additionalOptions">rcomp=f restrictleft=32</option>
-        <option name="customComponent1" />
+        <option name="customComponent1"></option>
         <childOption name="adapterTrimming">
-          <option name="adapters">urn:local:.:b4b-dy81hrh|urn:local:.:b4d-dy81hri|urn:local:.:b4f-dy81hrk|urn:local:.:b4h-dy81hrk|urn:local:.:b4j-dy81hrn|urn:local:.:b4l-dy81hrn|urn:local:.:b4n-dy81hro|urn:local:.:b4p-dy81hrq|urn:local:.:b4r-dy81hrr|urn:local:.:b4t-dy81hrr|urn:local:.:b4v-dy81hrr|urn:local:.:b4x-dy81hrt|urn:local:.:b4z-dy81hrt|urn:local:.:b51-dy81hrw|urn:local:.:b53-dy81hry|urn:local:.:b55-dy81hry|urn:local:.:b57-dy81hs1|urn:local:.:b59-dy81hs1|urn:local:.:b5b-dy81hs1|urn:local:.:b5d-dy81hs2|urn:local:.:b3b-dy81hpt|urn:local:.:b3d-dy81hqy|urn:local:.:b5f-dy81hs4|urn:local:.:b5h-dy81hs6|urn:local:.:b5j-dy81hs7|urn:local:.:b5l-dy81hs7|urn:local:.:b5n-dy81hs9|urn:local:.:b5p-dy81hs9|urn:local:.:b5r-dy81hsa|urn:local:.:b5t-dy81hsa|urn:local:.:b5v-dy81hsa|urn:local:.:b5x-dy81hsc|urn:local:.:b5z-dy81hsc|urn:local:.:b61-dy81hsd|urn:local:.:b63-dy81hsd|urn:local:.:b65-dy81hsd|urn:local:.:b67-dy81hsg|urn:local:.:b69-dy81hsg|urn:local:.:b6b-dy81hsi|urn:local:.:b6d-dy81hsk|urn:local:.:b6f-dy81hsl|urn:local:.:b6h-dy81hsl|urn:local:.:b3f-dy81hr4|urn:local:.:b3h-dy81hr4|urn:local:.:b3j-dy81hr6|urn:local:.:b3l-dy81hr6|urn:local:.:b3n-dy81hr7|urn:local:.:b3p-dy81hr7|urn:local:.:b3r-dy81hr9|urn:local:.:b3t-dy81hrc|urn:local:.:b3v-dy81hrc|urn:local:.:b3x-dy81hrc|urn:local:.:b3z-dy81hrd|urn:local:.:b41-dy81hrd|urn:local:.:b43-dy81hrf|urn:local:.:b45-dy81hrf|urn:local:.:b47-dy81hrf|urn:local:.:b49-dy81hrh</option>
-          <option name="customComponent1" />
+          <option name="adapters">urn:local:.:1b2-g1pbral|urn:local:.:1c9-g1pbram|urn:local:.:1b0-g1pbral|urn:local:.:1c5-g1pbram|urn:local:.:1bk-g1pbral|urn:local:.:1b6-g1pbral|urn:local:.:1cc-g1pbram|urn:local:.:1b8-g1pbral|urn:local:.:1c3-g1pbram|urn:local:.:1bg-g1pbral|urn:local:.:1c1-g1pbram|urn:local:.:1bi-g1pbral|urn:local:.:1bt-g1pbral|urn:local:.:1ca-g1pbram|urn:local:.:1cg-g1pbram|urn:local:.:1c0-g1pbram|urn:local:.:1ba-g1pbral|urn:local:.:1ce-g1pbram|urn:local:.:1ci-g1pbram|urn:local:.:1br-g1pbral|urn:local:.:1bw-g1pbram|urn:local:.:1by-g1pbram|urn:local:.:1be-g1pbral|urn:local:.:1bp-g1pbral|urn:local:.:1b5-g1pbral|urn:local:.:1bc-g1pbral|urn:local:.:1c7-g1pbram|urn:local:.:1b3-g1pbral|urn:local:.:1bn-g1pbral|urn:local:.:1bj-g1pbral|urn:local:.:1bl-g1pbral|urn:local:.:1b1-g1pbral|urn:local:.:1b7-g1pbral|urn:local:.:1bf-g1pbral|urn:local:.:1c4-g1pbram|urn:local:.:1az-g1pbral|urn:local:.:1ck-g1pbram|urn:local:.:1cb-g1pbram|urn:local:.:1c2-g1pbram|urn:local:.:1b9-g1pbral|urn:local:.:1bh-g1pbral|urn:local:.:1bu-g1pbral|urn:local:.:1ch-g1pbram|urn:local:.:1bs-g1pbral|urn:local:.:1bv-g1pbram|urn:local:.:1cj-g1pbram|urn:local:.:1bq-g1pbral|urn:local:.:1cd-g1pbram|urn:local:.:1bx-g1pbram|urn:local:.:1bo-g1pbral|urn:local:.:1c6-g1pbram|urn:local:.:1bm-g1pbral|urn:local:.:1bd-g1pbral|urn:local:.:1b4-g1pbral|urn:local:.:1cf-g1pbram|urn:local:.:1bb-g1pbral|urn:local:.:1c8-g1pbram|urn:local:.:1bz-g1pbram</option>
+          <option name="customComponent1"></option>
           <option name="adapterTrimDirection">l</option>
           <option name="adapterKMer">21</option>
           <option name="maximumSubstitutions">3</option>
@@ -107,92 +107,40 @@
     </workflowElement>
     <workflowElement id="com.biomatters.plugins.alignment.AssemblyOperation_Reference" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
-        <option name="assemblerId">Minimap2_Biomatters</option>
-        <option name="assemblerVersion">2.0.0</option>
+        <option name="assemblerId">Geneious.reference</option>
+        <option name="assemblerVersion">2022.1.1</option>
         <option name="assemblyNamePrefixOrFolder">&lt;font color='red'&gt;No Documents&lt;/font&gt; </option>
         <childOption name="data">
           <option name="reassemble">true</option>
           <option name="useReferenceSequence">true</option>
-          <option name="referenceSequenceName">urn:local:.:ik-dqu7mbd</option>
-          <option name="customComponent1" />
-          <option name="customComponent2" />
-          <option name="customComponent3" />
+          <option name="referenceSequenceName">urn:local:.:uf-g1pbr9h</option>
+          <option name="customComponent1"></option>
+          <option name="customComponent2"></option>
+          <option name="customComponent3"></option>
           <option name="assembleByDocumentFields">false</option>
           <option name="groupAssemblies">false</option>
           <option name="namePart">0</option>
           <option name="nameSeparator" extra="">- (Hyphen)</option>
-          <option name="customComponent4" />
+          <option name="customComponent4"></option>
           <option name="assembleListsSeparately">true</option>
         </childOption>
         <childOption name="method">
           <childOption name="algorithm">
             <option name="deNovoAssembly">dummy</option>
-            <option name="customComponent1" />
-            <option name="referenceAssembly">Minimap2_Biomatters</option>
-            <option name="customComponent2" />
-          </childOption>
-          <childOption name="bowtie2">
-            <option name="type">global</option>
-            <option name="preset">true</option>
-            <option name="sensitivity">sensitive</option>
-            <childOption name="normal">
-              <option name="packRef">false</option>
-              <option name="commandLine" />
-              <option name="customComponent1" />
-            </childOption>
-            <childOption name="algorithmOptions">
-              <option name="multiThreading">true</option>
-              <option name="misMatchSeed">0</option>
-              <option name="seedLength">22</option>
-              <option name="minInsertMatch">0</option>
-              <option name="maxInsertMatch">800</option>
-            </childOption>
-            <childOption name="reporting">
-              <option name="reporting">best</option>
-              <option name="reportUpTo">5</option>
-            </childOption>
-          </childOption>
-          <childOption name="Minimap2_Biomatters">
-            <childOption name="options">
-              <option name="-x">map-ont --frag=yes</option>
-              <option name="kmerCheck">false</option>
-              <option name="-k">15</option>
-              <option name="additionalOptions" />
-              <option name="--secondary=yes">true</option>
-              <childOption name="Include Secondary Alignments">
-                <option name="-N">5</option>
-                <option name="-p">0.8</option>
-              </childOption>
-            </childOption>
-          </childOption>
-          <childOption name="bowtie">
-            <childOption name="normal">
-              <option name="packRef">false</option>
-              <option name="commandLine" />
-              <option name="customComponent1" />
-            </childOption>
-            <childOption name="algorithmOptions">
-              <option name="multiThreading">true</option>
-              <option name="misMatchSeed">2</option>
-              <option name="seedLength">28</option>
-              <option name="minInsertMatch">0</option>
-              <option name="maxInsertMatch">800</option>
-            </childOption>
-            <childOption name="reporting">
-              <option name="reporting">best</option>
-              <option name="reportUpTo">5</option>
-            </childOption>
+            <option name="customComponent1"></option>
+            <option name="referenceAssembly">Geneious.reference</option>
+            <option name="customComponent2"></option>
           </childOption>
           <childOption name="Geneious.reference">
             <option name="sensitivity">medium</option>
-            <option name="customComponent1" />
+            <option name="customComponent1"></option>
             <option name="findStructuralVariants">false</option>
-            <option name="customComponent2" />
+            <option name="customComponent2"></option>
             <option name="findDeletions">false</option>
             <option name="maximumDeletionSize">1000</option>
             <option name="fineTune">fineTuningNone</option>
-            <option name="customComponent3" />
-            <option name="customComponent4" />
+            <option name="customComponent3"></option>
+            <option name="customComponent4"></option>
             <option name="expansionWordLength">14</option>
             <option name="indexWordLength">12</option>
             <option name="filterRepeatsReference">true</option>
@@ -221,13 +169,13 @@
           </childOption>
           <childOption name="GeneiousRNA.reference">
             <option name="sensitivity">medium</option>
-            <option name="customComponent1" />
+            <option name="customComponent1"></option>
             <option name="RNASeqMethod">spanAnnotations</option>
             <option name="intronType">mRNA</option>
             <option name="maximumNovelIntronSize">500000</option>
-            <option name="customComponent2" />
+            <option name="customComponent2"></option>
             <option name="fineTune">iterate_5</option>
-            <option name="customComponent3" />
+            <option name="customComponent3"></option>
             <option name="expansionWordLength">14</option>
             <option name="indexWordLength">12</option>
             <option name="filterRepeatsReference">true</option>
@@ -254,22 +202,11 @@
             <option name="onlyMapPairedHitsReference">false</option>
             <option name="onlyMapPairedHitsReferenceCombobox">mapNearby</option>
           </childOption>
-          <childOption name="BBMap">
-            <option name="sensitivity">normal</option>
-            <option name="multipleBestMatches">random</option>
-            <option name="kmer">13</option>
-            <option name="maximumIndelSize">16000</option>
-            <option name="usemodulo">false</option>
-            <option name="pacBio">false</option>
-            <option name="memoryToAllocate">111000</option>
-            <option name="additionalOptions" />
-            <option name="customComponent1" />
-          </childOption>
         </childOption>
         <childOption name="trimOptions">
           <option name="method">useExistingRemove</option>
           <option name="trimOptionsButton">Options</option>
-          <option name="customComponent1" />
+          <option name="customComponent1"></option>
           <childOption name="trimOptions">
             <option name="action">annotate</option>
             <childOption name="vectorTrim">
@@ -284,7 +221,7 @@
             <childOption name="primerTrim">
               <option name="primerScreening">false</option>
               <childOption name="primerTrim">
-                <option name="primers" />
+                <option name="primers"></option>
                 <option name="allowMismatches">true</option>
                 <option name="maxMismatches">5</option>
                 <option name="minLength">5</option>
@@ -328,27 +265,27 @@
           <option name="nameReference">{Reads Name}</option>
           <option name="addNameVariableReference">...</option>
           <option name="saveReport">false</option>
-          <option name="customComponent1" />
+          <option name="customComponent1"></option>
           <option name="saveUnusedReads">false</option>
-          <option name="customComponent2" />
+          <option name="customComponent2"></option>
           <option name="saveUsedReads">false</option>
           <option name="saveUsedReadsIncludeMates">false</option>
-          <option name="customComponent3" />
+          <option name="customComponent3"></option>
           <option name="resultsInSubfolder">false</option>
-          <option name="customComponent4" />
+          <option name="customComponent4"></option>
           <option name="generateContigs">true</option>
           <option name="limitGeneratedContigs">true</option>
           <option name="generatedContigsLimit">1000</option>
           <option name="saveConsensusSequencesAsList">true</option>
-          <option name="customComponent5" />
+          <option name="customComponent5"></option>
           <option name="generateConsensusSequencesReference">false</option>
           <option name="consensusOptionsButtonReference">Options</option>
-          <option name="customComponent6" />
-          <option name="customComponent7" />
+          <option name="customComponent6"></option>
+          <option name="customComponent7"></option>
           <option name="generateConsensusSequencesDeNovo">true</option>
           <option name="consensusOptionsButtonDeNovo">Options</option>
-          <option name="customComponent8" />
-          <option name="customComponent9" />
+          <option name="customComponent8"></option>
+          <option name="customComponent9"></option>
           <childOption name="consensus">
             <option name="consensusSource">generateFromContig</option>
             <childOption name="consensusOptionsReference">
@@ -368,7 +305,7 @@
               <option name="noConsensusEndGaps">true</option>
               <option name="trimToReference">false</option>
               <option name="ignoreReadsMappedToMultipleLocations">false</option>
-              <option name="callWhenGapInBestStates" />
+              <option name="callWhenGapInBestStates"></option>
               <option name="callChromatogramHeterozygotes">true</option>
               <option name="chromatogramHeterozygotePercentage">50</option>
               <option name="howToStoreSequences">AskUser</option>
@@ -390,7 +327,7 @@
               <option name="noConsensusEndGaps">true</option>
               <option name="trimToReference">false</option>
               <option name="ignoreReadsMappedToMultipleLocations">false</option>
-              <option name="callWhenGapInBestStates" />
+              <option name="callWhenGapInBestStates"></option>
               <option name="callChromatogramHeterozygotes">true</option>
               <option name="chromatogramHeterozygotePercentage">50</option>
               <option name="howToStoreSequences">AskUser</option>
@@ -442,11 +379,11 @@
     </workflowElement>
     <workflowElement id="Operation_com.biomatters.plugins.featureFinder.FeatureFinder_NUCLEOTIDE" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
-        <option name="source">LocalDocuments/SARS-CoV-2/Annotation features (new version)</option>
+        <option name="source">LocalDocuments/SARS-CoV-2_public_workflows/Annotation_Features/Common mutations</option>
         <option name="similarity">100</option>
         <option name="name">[]</option>
         <option name="whatToFind">allMatching</option>
-        <option name="customComponent1" />
+        <option name="customComponent1"></option>
         <option name="applyToReferencedSequences">false</option>
         <childOption name="sourceDatabase">
           <option name="nucleotideSearch">true</option>
@@ -482,11 +419,11 @@ trimmed</option>
     </workflowElement>
     <workflowElement id="Operation_com.biomatters.plugins.featureFinder.FeatureFinder_NUCLEOTIDE" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
-        <option name="source">LocalDocuments/SARS-CoV-2/SARS-CoV-2 reference sequence</option>
+        <option name="source">LocalDocuments/SARS-CoV-2_public_workflows/Annotation_Features/Mutations of interest</option>
         <option name="similarity">80</option>
         <option name="name">[]</option>
         <option name="whatToFind">allMatching</option>
-        <option name="customComponent1" />
+        <option name="customComponent1"></option>
         <option name="applyToReferencedSequences">false</option>
         <childOption name="sourceDatabase">
           <option name="nucleotideSearch">true</option>
@@ -535,9 +472,9 @@ trimmed</option>
       <Options>
         <option name="fileFormat">fasta</option>
         <option name="optionsButton">Options</option>
-        <option name="folder" extra="L:\\UAS\\AL_NGS-Archive\\KMB_Archive\\SARS-CoV-2 Sekvenseringsdata\\Sekvenseringsresultat (fasta),L:\\UAS\\AL_NGS-Archive\\KMB_Archive\\Midnight fasta,">L:\UAS\AL_NGS-Archive\KMB_Archive\SARS-CoV-2 Sekvenseringsdata\Sekvenseringsresultat (fasta)</option>
+        <option name="folder" extra="L:\\UAS\\AL_NGS-Archive\\KMB_Archive\\SARS-CoV-2 Sekvenseringsdata\\Sekvenseringsresultat (fasta),L:\\UAS\\AL_NGS-Archive\\KMB_Archive\\Midnight fasta,/home/ete03/Documents/Geneious_Workflow_SARS-CoV-2/FinalResults,">{DEFAULT_LOCATION}</option>
         <option name="extension">.fasta</option>
-        <option name="exportOptionsXml" />
+        <option name="exportOptionsXml"></option>
         <option name="exportToSingleFile">false</option>
         <option name="singleFileName">results</option>
       </Options>
