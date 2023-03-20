@@ -1,5 +1,5 @@
 <geneiousWorkflows>
-  <XMLSerialisableRootElement name="SARS-CoV-2_Assembly_Midnight_pango" author="" geneiousVersion="2022.1.1" uniqueId="d340e855-63e7-4400-b0d7-ca925a804b3c" revisionNumber="191" description="">
+  <XMLSerialisableRootElement name="SARS-CoV-2_Assembly_Midnight_pango" author="" geneiousVersion="2021.1.1" uniqueId="d340e855-63e7-4400-b0d7-ca925a804b3c" revisionNumber="191" description="">
     <workflowElement id="BBDuk" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
         <option name="trimAdapters">true</option>
