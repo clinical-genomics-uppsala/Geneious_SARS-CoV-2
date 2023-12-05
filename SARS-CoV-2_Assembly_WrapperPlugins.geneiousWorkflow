@@ -1,5 +1,5 @@
 <geneiousWorkflows>
-  <XMLSerialisableRootElement name="SARS-CoV-2_Assembly_WrapperPlugins" author="Rene Kaden" geneiousVersion="2022.2.1" uniqueId="b50474a4-9cd0-4ead-9c9c-7f89910d491d" revisionNumber="203" description="">
+  <XMLSerialisableRootElement name="SARS-CoV-2_Assembly_WrapperPlugins" author="Rene Kaden" geneiousVersion="2022.2.1" uniqueId="0c696328-58a2-4ca8-bea4-94dc9e6de77b" revisionNumber="203" description="">
     <workflowElement id="BBDuk" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
         <option name="trimAdapters">true</option>
@@ -448,7 +448,7 @@ trimmed</option>
     </workflowElement>
     <workflowElement id="Operation_com.biomatters.plugins.featureFinder.FeatureFinder_NUCLEOTIDE" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
-        <option name="source">LocalDocuments/TomasC/SARS-CoV-2_public_workflows/SARS-CoV-2_reference_sequence</option>
+        <option name="source">LocalDocuments/TomasC/SARS-CoV-2_public_workflows/SARS-CoV-2 reference sequence</option>
         <option name="similarity">80</option>
         <option name="name">[]</option>
         <option name="whatToFind">allMatching</option>

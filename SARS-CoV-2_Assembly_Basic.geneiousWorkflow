@@ -1,5 +1,5 @@
 <geneiousWorkflows>
-  <XMLSerialisableRootElement name="SARS-CoV-2_Assembly_Basic" author="Rene Kaden" geneiousVersion="2022.2.1" uniqueId="abf557d7-75dc-44ea-bc51-e30581663665" revisionNumber="156" description="&lt;html&gt;For use with Midnight primer set. Questions: rene.kaden@akademiska.se&lt;/html&gt;">
+  <XMLSerialisableRootElement name="SARS-CoV-2_Assembly_Basic" author="Rene Kaden" geneiousVersion="2022.2.1" uniqueId="1be26436-0be2-4b99-bc4e-f40c07879fe0" revisionNumber="156" description="&lt;html&gt;For use with Midnight primer set. Questions: rene.kaden@akademiska.se&lt;/html&gt;">
     <workflowElement id="BBDuk" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
         <option name="trimAdapters">true</option>
@@ -448,7 +448,7 @@ trimmed</option>
     </workflowElement>
     <workflowElement id="Operation_com.biomatters.plugins.featureFinder.FeatureFinder_NUCLEOTIDE" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
-        <option name="source">LocalDocuments/TomasC/SARS-CoV-2_public_workflows/SARS-CoV-2_reference_sequence</option>
+        <option name="source">LocalDocuments/TomasC/SARS-CoV-2_public_workflows/SARS-CoV-2 reference sequence</option>
         <option name="similarity">80</option>
         <option name="name">[]</option>
         <option name="whatToFind">allMatching</option>
