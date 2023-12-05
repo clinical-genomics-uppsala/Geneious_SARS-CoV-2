@@ -1,5 +1,5 @@
 <geneiousWorkflows>
-  <XMLSerialisableRootElement name="SARS-CoV-2_Assembly_Basic" author="Rene Kaden" geneiousVersion="2022.1.1" uniqueId="53982bf5-2178-4661-868b-33e317a95996" revisionNumber="155" description="&lt;html&gt;For use with Midnight primer set. Questions: rene.kaden@akademiska.se&lt;/html&gt;">
+  <XMLSerialisableRootElement name="SARS-CoV-2_Assembly_Basic" author="Rene Kaden" geneiousVersion="2022.2.1" uniqueId="abf557d7-75dc-44ea-bc51-e30581663665" revisionNumber="156" description="&lt;html&gt;For use with Midnight primer set. Questions: rene.kaden@akademiska.se&lt;/html&gt;">
     <workflowElement id="BBDuk" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
         <option name="trimAdapters">true</option>
@@ -12,7 +12,7 @@
         <option name="additionalOptions">rcomp=f restrictleft=32</option>
         <option name="customComponent1" />
         <childOption name="adapterTrimming">
-          <option name="adapters">urn:local:.:1b2-g1pbral|urn:local:.:1c9-g1pbram|urn:local:.:1b0-g1pbral|urn:local:.:1c5-g1pbram|urn:local:.:1bk-g1pbral|urn:local:.:1b6-g1pbral|urn:local:.:1cc-g1pbram|urn:local:.:1b8-g1pbral|urn:local:.:1c3-g1pbram|urn:local:.:1bg-g1pbral|urn:local:.:1c1-g1pbram|urn:local:.:1bi-g1pbral|urn:local:.:1bt-g1pbral|urn:local:.:1ca-g1pbram|urn:local:.:1cg-g1pbram|urn:local:.:1c0-g1pbram|urn:local:.:1ba-g1pbral|urn:local:.:1ce-g1pbram|urn:local:.:1ci-g1pbram|urn:local:.:1br-g1pbral|urn:local:.:1bw-g1pbram|urn:local:.:1by-g1pbram|urn:local:.:1be-g1pbral|urn:local:.:1bp-g1pbral|urn:local:.:1b5-g1pbral|urn:local:.:1bc-g1pbral|urn:local:.:1c7-g1pbram|urn:local:.:1b3-g1pbral|urn:local:.:1bn-g1pbral|urn:local:.:1bj-g1pbral|urn:local:.:1bl-g1pbral|urn:local:.:1b1-g1pbral|urn:local:.:1b7-g1pbral|urn:local:.:1bf-g1pbral|urn:local:.:1c4-g1pbram|urn:local:.:1az-g1pbral|urn:local:.:1ck-g1pbram|urn:local:.:1cb-g1pbram|urn:local:.:1c2-g1pbram|urn:local:.:1b9-g1pbral|urn:local:.:1bh-g1pbral|urn:local:.:1bu-g1pbral|urn:local:.:1ch-g1pbram|urn:local:.:1bs-g1pbral|urn:local:.:1bv-g1pbram|urn:local:.:1cj-g1pbram|urn:local:.:1bq-g1pbral|urn:local:.:1cd-g1pbram|urn:local:.:1bx-g1pbram|urn:local:.:1bo-g1pbral|urn:local:.:1c6-g1pbram|urn:local:.:1bm-g1pbral|urn:local:.:1bd-g1pbral|urn:local:.:1b4-g1pbral|urn:local:.:1cf-g1pbram|urn:local:.:1bb-g1pbral|urn:local:.:1c8-g1pbram|urn:local:.:1bz-g1pbram</option>
+          <option name="adapters">urn:local:.:6f-f8yn05v|urn:local:.:5r-f8yn05u|urn:local:.:6y-f8yn05v|urn:local:.:6w-f8yn05v|urn:local:.:6h-f8yn05v|urn:local:.:61-f8yn05u|urn:local:.:5n-f8yn05u|urn:local:.:5t-f8yn05u|urn:local:.:70-f8yn05v|urn:local:.:6j-f8yn05v|urn:local:.:6s-f8yn05v|urn:local:.:5p-f8yn05u|urn:local:.:72-f8yn05x|urn:local:.:6u-f8yn05v|urn:local:.:67-f8yn05u|urn:local:.:6p-f8yn05v|urn:local:.:5j-f8yn05u|urn:local:.:6n-f8yn05v|urn:local:.:69-f8yn05u|urn:local:.:5y-f8yn05u|urn:local:.:6r-f8yn05v|urn:local:.:6l-f8yn05v|urn:local:.:5h-f8yn05u|urn:local:.:6a-f8yn05v|urn:local:.:63-f8yn05u|urn:local:.:65-f8yn05u|urn:local:.:6c-f8yn05v|urn:local:.:5l-f8yn05u|urn:local:.:5w-f8yn05u|urn:local:.:5s-f8yn05u|urn:local:.:6z-f8yn05v|urn:local:.:6e-f8yn05v|urn:local:.:5u-f8yn05u|urn:local:.:5o-f8yn05u|urn:local:.:6g-f8yn05v|urn:local:.:62-f8yn05u|urn:local:.:6x-f8yn05v|urn:local:.:6t-f8yn05v|urn:local:.:71-f8yn05x|urn:local:.:6k-f8yn05v|urn:local:.:60-f8yn05u|urn:local:.:6i-f8yn05v|urn:local:.:6v-f8yn05v|urn:local:.:5q-f8yn05u|urn:local:.:6o-f8yn05v|urn:local:.:5i-f8yn05u|urn:local:.:66-f8yn05u|urn:local:.:6q-f8yn05v|urn:local:.:6m-f8yn05v|urn:local:.:68-f8yn05u|urn:local:.:5z-f8yn05u|urn:local:.:5m-f8yn05u|urn:local:.:5v-f8yn05u|urn:local:.:5x-f8yn05u|urn:local:.:6b-f8yn05v|urn:local:.:5k-f8yn05u|urn:local:.:6d-f8yn05v|urn:local:.:64-f8yn05u</option>
           <option name="customComponent1" />
           <option name="adapterTrimDirection">l</option>
           <option name="adapterKMer">21</option>
@@ -85,12 +85,12 @@
     <workflowElement id="com.biomatters.plugins.alignment.AssemblyOperation_Reference" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
         <option name="assemblerId">Geneious.reference</option>
-        <option name="assemblerVersion">2022.1.1</option>
+        <option name="assemblerVersion">2022.2.1</option>
         <option name="assemblyNamePrefixOrFolder">&lt;font color='red'&gt;No Documents&lt;/font&gt; </option>
         <childOption name="data">
           <option name="reassemble">true</option>
           <option name="useReferenceSequence">true</option>
-          <option name="referenceSequenceName">urn:local:.:uf-g1pbr9h</option>
+          <option name="referenceSequenceName">urn:local:.:um-fgzrgyo</option>
           <option name="customComponent1" />
           <option name="customComponent2" />
           <option name="customComponent3" />
@@ -107,6 +107,58 @@
             <option name="customComponent1" />
             <option name="referenceAssembly">Geneious.reference</option>
             <option name="customComponent2" />
+          </childOption>
+          <childOption name="bowtie2">
+            <option name="type">global</option>
+            <option name="preset">true</option>
+            <option name="sensitivity">sensitive</option>
+            <childOption name="normal">
+              <option name="packRef">false</option>
+              <option name="commandLine" />
+              <option name="customComponent1" />
+            </childOption>
+            <childOption name="algorithmOptions">
+              <option name="multiThreading">true</option>
+              <option name="misMatchSeed">0</option>
+              <option name="seedLength">22</option>
+              <option name="minInsertMatch">0</option>
+              <option name="maxInsertMatch">800</option>
+            </childOption>
+            <childOption name="reporting">
+              <option name="reporting">best</option>
+              <option name="reportUpTo">5</option>
+            </childOption>
+          </childOption>
+          <childOption name="Minimap2_Biomatters">
+            <childOption name="options">
+              <option name="-x">sr --frag=yes</option>
+              <option name="kmerCheck">false</option>
+              <option name="-k">15</option>
+              <option name="additionalOptions" />
+              <option name="--secondary=yes">true</option>
+              <childOption name="Include Secondary Alignments">
+                <option name="-N">5</option>
+                <option name="-p">0.8</option>
+              </childOption>
+            </childOption>
+          </childOption>
+          <childOption name="bowtie">
+            <childOption name="normal">
+              <option name="packRef">false</option>
+              <option name="commandLine" />
+              <option name="customComponent1" />
+            </childOption>
+            <childOption name="algorithmOptions">
+              <option name="multiThreading">true</option>
+              <option name="misMatchSeed">2</option>
+              <option name="seedLength">28</option>
+              <option name="minInsertMatch">0</option>
+              <option name="maxInsertMatch">800</option>
+            </childOption>
+            <childOption name="reporting">
+              <option name="reporting">best</option>
+              <option name="reportUpTo">5</option>
+            </childOption>
           </childOption>
           <childOption name="Geneious.reference">
             <option name="sensitivity">medium</option>
@@ -356,11 +408,11 @@
     </workflowElement>
     <workflowElement id="Operation_com.biomatters.plugins.featureFinder.FeatureFinder_NUCLEOTIDE" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
-        <option name="source">LocalDocuments/SARS-CoV-2_public_workflows/Annotation_Features/Common mutations</option>
+        <option name="source">LocalDocuments/TomasC/SARS-CoV-2_public_workflows/Annotation features (Dec 2023 version)</option>
         <option name="similarity">100</option>
         <option name="name">[]</option>
         <option name="whatToFind">allMatching</option>
-        <option name="customComponent1" />
+        <option name="customComponent1"></option>
         <option name="applyToReferencedSequences">false</option>
         <childOption name="sourceDatabase">
           <option name="nucleotideSearch">true</option>
@@ -396,11 +448,11 @@ trimmed</option>
     </workflowElement>
     <workflowElement id="Operation_com.biomatters.plugins.featureFinder.FeatureFinder_NUCLEOTIDE" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
-        <option name="source">LocalDocuments/SARS-CoV-2_public_workflows/Annotation_Features/Mutations of interest</option>
+        <option name="source">LocalDocuments/TomasC/SARS-CoV-2_public_workflows/SARS-CoV-2_reference_sequence</option>
         <option name="similarity">80</option>
         <option name="name">[]</option>
         <option name="whatToFind">allMatching</option>
-        <option name="customComponent1" />
+        <option name="customComponent1"></option>
         <option name="applyToReferencedSequences">false</option>
         <childOption name="sourceDatabase">
           <option name="nucleotideSearch">true</option>
@@ -449,7 +501,7 @@ trimmed</option>
       <Options>
         <option name="fileFormat">fasta</option>
         <option name="optionsButton">Options</option>
-        <option name="folder" extra="L:\\UAS\\AL_NGS-Archive\\KMB_Archive\\SARS-CoV-2 Sekvenseringsdata\\Sekvenseringsresultat (fasta),L:\\UAS\\AL_NGS-Archive\\KMB_Archive\\Midnight fasta,/home/ete03/Documents/Geneious_Workflow_SARS-CoV-2/FinalResults,">{DEFAULT_LOCATION}</option>
+        <option name="folder" extra="L:\\UAS\\AL_NGS-Archive\\KMB_Archive\\SARS-CoV-2 Sekvenseringsdata\\Sekvenseringsresultat (fasta),L:\\UAS\\AL_NGS-Archive\\KMB_Archive\\Midnight fasta,/home/ete03/Documents/Geneious_Workflow_SARS-CoV-2/FinalResults,C:\\Users\\KMB\\TomasC\\BasicWorkflow_Results,">C:\Users\KMB\TomasC\BasicWorkflow_Results</option>
         <option name="extension">.fasta</option>
         <option name="exportOptionsXml" />
         <option name="exportToSingleFile">false</option>
