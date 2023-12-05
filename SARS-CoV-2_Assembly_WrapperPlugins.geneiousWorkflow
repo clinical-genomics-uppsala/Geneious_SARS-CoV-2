@@ -1,5 +1,5 @@
 <geneiousWorkflows>
-  <XMLSerialisableRootElement name="SARS-CoV-2_Assembly_WrapperPlugins" author="Rene Kaden" geneiousVersion="2022.2.1" uniqueId="0c696328-58a2-4ca8-bea4-94dc9e6de77b" revisionNumber="203" description="">
+  <XMLSerialisableRootElement name="SARS-CoV-2_Assembly_WrapperPlugins" author="Rene Kaden" geneiousVersion="2022.2.1" uniqueId="eb04540f-c842-40d1-b5ee-7748eec437a2" revisionNumber="206" description="">
     <workflowElement id="BBDuk" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
       <Options>
         <option name="trimAdapters">true</option>
@@ -532,15 +532,6 @@ trimmed</option>
         <option name="back">2</option>
       </options>
     </workflowElement>
-    <workflowElement id="pangolin_windows_" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
-      <Options>
-        <childOption name="options">
-          <option name="pathToDocker">C:\Program Files\Docker\Docker\resources\bin\docker.exe</option>
-          <option name="pathToGeneiousData">D:\Geneious 2021.1 Data\transient</option>
-        </childOption>
-      </Options>
-      <optionToExpose optionName="options.pathToDocker" label="" />
-    </workflowElement>
     <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementSaveAndContinue">
       <options>
         <option name="save">true</option>
@@ -574,15 +565,6 @@ trimmed</option>
         <option name="doWhat">branchFrom</option>
         <option name="back">4</option>
       </options>
-    </workflowElement>
-    <workflowElement id="nextclade_windows_Copy_" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
-      <Options>
-        <childOption name="options">
-          <option name="pathToNextclade">C:\Users\KMB\nextclade.exe</option>
-          <option name="pathToOutputLocation">C:\Users\KMB\TomasC</option>
-        </childOption>
-      </Options>
-      <optionToExpose optionName="options.pathToNextclade" label="" />
     </workflowElement>
     <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementSaveAndContinue">
       <options>
